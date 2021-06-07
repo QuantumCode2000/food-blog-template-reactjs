@@ -6,10 +6,23 @@ const Footer = () => {
         <React.Fragment>
             <footer>
                 <div className="footer-top">
-                    <div className="about">ab</div>
-                    <div className="archives">ar</div>
-                    <div className="newsletter">news</div>
-                    <div className="recipes">rec</div>
+                    <div className="about footer-top__card">
+                        <h1>About</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat posuere mauris ac scelerisque. Gravida id dui arcu nibh </p>
+                    </div>
+                    <div className="archives footer-top__card">
+                        <h1>
+                            Archives
+                        </h1>
+                    </div>
+                    
+                    <div className="recipes footer-top__card">
+                        <h1>Recipes</h1>
+                    </div>
+
+                    <div className="newsletter footer-top__card ">
+                        <h1>Newsletter</h1>
+                    </div>
                 </div>
                 <div className="footer-bottom">
                     <div className="copyright">
