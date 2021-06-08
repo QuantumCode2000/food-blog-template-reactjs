@@ -73,7 +73,12 @@ export default function MostPopularRecipes() {
                         </div>
                     </div>
                 </div>
-                <div className="pages"></div>
+                <div className="pages">
+                    <p className='number n1'></p>
+                    <p className='number n2'></p>
+                    <p className='number n3'></p>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 18L15 12L9 6" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
             </div>
         </>
     )
