@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import MostPopularRecipes from './components/MostPopularRecipes';
 
 function App() {
   return (
     <div> 
+      <MostPopularRecipes/>
     </div>
   );
 }
