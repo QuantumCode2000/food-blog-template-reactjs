@@ -1,0 +1,18 @@
+.card {
+
+    position: absolute;
+    width: 870px;
+    height: 257px;
+    left: 135px;
+    top: 1887px;
+
+background: #FFE5E6;
+}
+.card img{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 160px;
+    top: 1932px;
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.15);
+}

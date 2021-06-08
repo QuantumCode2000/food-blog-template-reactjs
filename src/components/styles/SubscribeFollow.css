@@ -1,0 +1,70 @@
+.cards {
+    position: absolute;
+width: 270px;
+height: 195px;
+left: 1035px;
+top: 1874px;
+background: #DEDADA;
+}
+.get{
+    position: absolute;
+width: 154px;
+height: 30px;
+left: 1093px;
+top: 1880px;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 163.9%;
+color: #2D2D2D;
+}
+.ye{
+    position: absolute;
+width: 220px;
+height: 40px;
+left: 1060px;
+top: 1954px;
+
+background: #FFFFFF;
+}
+.email{
+    position: absolute;
+width: 99px;
+height: 20px;
+left: 1121px;
+top: 1954px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 163.9%;
+/* identical to box height, or 20px */
+color: #2D2D2D;
+}
+.subs{
+    position: absolute;
+width: 220px;
+height: 40px;
+left: 1060px;
+top: 2004px;
+
+background: #FE4A51;
+}
+.s{
+    position: absolute;
+    width: 79px;
+    height: 30px;
+    left: 1131px;
+    top: 1992px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 163.9%;
+    /* identical to box height, or 30px */
+    
+    
+    color: #FFFFFF;
+}

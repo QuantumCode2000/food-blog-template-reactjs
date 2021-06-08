@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Categories from './components/Categories'
+import SubscribeFollow from './components/SubscribeFollow'
 
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const conteiner = document.getElementById('root')
+const conteiner2 = document.getElementById('op')
+const element = <Categories/>;
+const element2 = <SubscribeFollow/>;
+ReactDOM.render(element, conteiner);
+ReactDOM.render(element2, conteiner2);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
