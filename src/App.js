@@ -3,9 +3,9 @@ import MostPopularRecipes from './components/MostPopularRecipes';
 
 function App() {
   return (
-    <div> 
+    <> 
       <MostPopularRecipes/>
-    </div>
+    </>
   );
 }
 

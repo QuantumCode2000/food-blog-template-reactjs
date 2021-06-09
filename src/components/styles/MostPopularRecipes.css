@@ -1,0 +1,99 @@
+ #root *{
+    /* border:1px solid red; */
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.MostPopularRecipes{
+    width: 870px;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.mostPopular_text{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100.9%;
+    width: 870px;
+}
+
+hr {
+    height: 2px;
+    width: 870px;
+    background-color: black;
+    margin: 15px 0 25px 0;
+}
+
+
+.RecipesCont{
+    
+    height: 662px;
+    width: max-content;
+    display: grid;
+    grid-template: 1fr 10px 1fr/ 1fr 10px 70px 10px 1fr;
+    
+}
+.rc1{
+    grid-column-start: 1;
+    grid-column-end:4 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url("https://i83.servimg.com/u/f83/20/31/79/72/image10.png");
+}
+.rc2{
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url('https://i83.servimg.com/u/f83/20/31/79/72/image_10.png');
+}
+.rc3{
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url('https://i83.servimg.com/u/f83/20/31/79/72/image_11.png');
+}
+.rc4{
+    grid-column-start: 3;
+    grid-column-end:6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url('https://i83.servimg.com/u/f83/20/31/79/72/rectan10.png');
+}
+
+.Recipe{
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column ;
+}
+
+.RecipeName{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100.9%;
+}
+
+.StatsCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 252px;
+    height: 12px;
+}
+.Stat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    line-height: 100.9%;
+    text-align: center;
+}

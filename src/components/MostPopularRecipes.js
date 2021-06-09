@@ -6,9 +6,10 @@ export default function MostPopularRecipes() {
         <>
             <div className="MostPopularRecipes">
                 <p className="mostPopular_text">Most Popular Recipes</p>
-                <div className="line"></div>
+                <svg width="870" height="1" viewBox="0 0 870 1" fill="none" xmlns="http://www.w3.org/2000/svg"><line y1="0.5" x2="870" y2="0.5" stroke="#2D2D2D"/><line y1="0.5" x2="70" y2="0.5" stroke="#FE4A51"/></svg>
                 <div className="RecipesCont"> 
                     <div className="Recipe rc1">
+                        <p className="RecipeName">Tomatoes Stuffed with Foie and Chanterellws</p>
                         <div className="StatsCont">
                             <div className="Stat">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M15.5837 13.6039L9.30981 7.33L1.97981 0H1.40697L1.29 0.297219C0.981278 1.08172 0.849372 1.88409 0.90859 2.6175C0.97609 3.4535 1.29368 4.17728 1.82709 4.71069L7.54928 10.4329L8.30403 9.67813L13.5942 15.5935C14.1204 16.1198 15.0262 16.151 15.5837 15.5935C16.1323 15.045 16.1323 14.1525 15.5837 13.6039Z" fill="#FE4A51"/><path d="M4.89773 9.10767L0.416136 13.5893C-0.132364 14.1378 -0.132364 15.0303 0.416136 15.5788C0.937198 16.0999 1.8386 16.1459 2.40567 15.5788L6.88729 11.0972L4.89773 9.10767Z" fill="#FE4A51"/><path d="M15.3204 2.66398L12.7782 5.20617L12.115 4.54298L14.6572 2.00076L13.994 1.33757L11.4518 3.87976L10.7886 3.21657L13.3308 0.674387L12.6677 0.0112305L9.35173 3.32717C8.94608 3.73282 8.70386 4.27145 8.66961 4.84389C8.66095 4.98892 8.62808 5.13157 8.57355 5.26726L10.7276 7.42129C10.8633 7.3667 11.006 7.33385 11.151 7.3252C11.7234 7.29104 12.262 7.04876 12.6677 6.6431L15.9836 3.3272L15.3204 2.66398Z" fill="#FE4A51"/></g><defs><clipPath id="clip0"><rect width="16" height="16" fill="white"/></clipPath></defs></svg>
@@ -25,6 +26,7 @@ export default function MostPopularRecipes() {
                         </div>
                     </div>
                     <div className="Recipe rc2">
+                        <p className="RecipeName">Brain Power Blueberry Smoothie</p>
                         <div className="StatsCont">
                             <div className="Stat">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M15.5837 13.6039L9.30981 7.33L1.97981 0H1.40697L1.29 0.297219C0.981278 1.08172 0.849372 1.88409 0.90859 2.6175C0.97609 3.4535 1.29368 4.17728 1.82709 4.71069L7.54928 10.4329L8.30403 9.67813L13.5942 15.5935C14.1204 16.1198 15.0262 16.151 15.5837 15.5935C16.1323 15.045 16.1323 14.1525 15.5837 13.6039Z" fill="#FE4A51"/><path d="M4.89773 9.10767L0.416136 13.5893C-0.132364 14.1378 -0.132364 15.0303 0.416136 15.5788C0.937198 16.0999 1.8386 16.1459 2.40567 15.5788L6.88729 11.0972L4.89773 9.10767Z" fill="#FE4A51"/><path d="M15.3204 2.66398L12.7782 5.20617L12.115 4.54298L14.6572 2.00076L13.994 1.33757L11.4518 3.87976L10.7886 3.21657L13.3308 0.674387L12.6677 0.0112305L9.35173 3.32717C8.94608 3.73282 8.70386 4.27145 8.66961 4.84389C8.66095 4.98892 8.62808 5.13157 8.57355 5.26726L10.7276 7.42129C10.8633 7.3667 11.006 7.33385 11.151 7.3252C11.7234 7.29104 12.262 7.04876 12.6677 6.6431L15.9836 3.3272L15.3204 2.66398Z" fill="#FE4A51"/></g><defs><clipPath id="clip0"><rect width="16" height="16" fill="white"/></clipPath></defs></svg>
@@ -41,6 +43,7 @@ export default function MostPopularRecipes() {
                         </div>
                     </div>
                     <div className="Recipe rc3">
+                        <p className="RecipeName">Slow Cooker Coconut Curry</p>
                         <div className="StatsCont">
                             <div className="Stat">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M15.5837 13.6039L9.30981 7.33L1.97981 0H1.40697L1.29 0.297219C0.981278 1.08172 0.849372 1.88409 0.90859 2.6175C0.97609 3.4535 1.29368 4.17728 1.82709 4.71069L7.54928 10.4329L8.30403 9.67813L13.5942 15.5935C14.1204 16.1198 15.0262 16.151 15.5837 15.5935C16.1323 15.045 16.1323 14.1525 15.5837 13.6039Z" fill="#FE4A51"/><path d="M4.89773 9.10767L0.416136 13.5893C-0.132364 14.1378 -0.132364 15.0303 0.416136 15.5788C0.937198 16.0999 1.8386 16.1459 2.40567 15.5788L6.88729 11.0972L4.89773 9.10767Z" fill="#FE4A51"/><path d="M15.3204 2.66398L12.7782 5.20617L12.115 4.54298L14.6572 2.00076L13.994 1.33757L11.4518 3.87976L10.7886 3.21657L13.3308 0.674387L12.6677 0.0112305L9.35173 3.32717C8.94608 3.73282 8.70386 4.27145 8.66961 4.84389C8.66095 4.98892 8.62808 5.13157 8.57355 5.26726L10.7276 7.42129C10.8633 7.3667 11.006 7.33385 11.151 7.3252C11.7234 7.29104 12.262 7.04876 12.6677 6.6431L15.9836 3.3272L15.3204 2.66398Z" fill="#FE4A51"/></g><defs><clipPath id="clip0"><rect width="16" height="16" fill="white"/></clipPath></defs></svg>
@@ -57,6 +60,7 @@ export default function MostPopularRecipes() {
                         </div>
                     </div>
                     <div className="Recipe rc4">
+                        <p className="RecipeName">Braised Pork Belly Adobo Sauce Curry </p>
                         <div className="StatsCont">
                             <div className="Stat">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M15.5837 13.6039L9.30981 7.33L1.97981 0H1.40697L1.29 0.297219C0.981278 1.08172 0.849372 1.88409 0.90859 2.6175C0.97609 3.4535 1.29368 4.17728 1.82709 4.71069L7.54928 10.4329L8.30403 9.67813L13.5942 15.5935C14.1204 16.1198 15.0262 16.151 15.5837 15.5935C16.1323 15.045 16.1323 14.1525 15.5837 13.6039Z" fill="#FE4A51"/><path d="M4.89773 9.10767L0.416136 13.5893C-0.132364 14.1378 -0.132364 15.0303 0.416136 15.5788C0.937198 16.0999 1.8386 16.1459 2.40567 15.5788L6.88729 11.0972L4.89773 9.10767Z" fill="#FE4A51"/><path d="M15.3204 2.66398L12.7782 5.20617L12.115 4.54298L14.6572 2.00076L13.994 1.33757L11.4518 3.87976L10.7886 3.21657L13.3308 0.674387L12.6677 0.0112305L9.35173 3.32717C8.94608 3.73282 8.70386 4.27145 8.66961 4.84389C8.66095 4.98892 8.62808 5.13157 8.57355 5.26726L10.7276 7.42129C10.8633 7.3667 11.006 7.33385 11.151 7.3252C11.7234 7.29104 12.262 7.04876 12.6677 6.6431L15.9836 3.3272L15.3204 2.66398Z" fill="#FE4A51"/></g><defs><clipPath id="clip0"><rect width="16" height="16" fill="white"/></clipPath></defs></svg>
@@ -74,9 +78,9 @@ export default function MostPopularRecipes() {
                     </div>
                 </div>
                 <div className="pages">
-                    <p className='number n1'></p>
-                    <p className='number n2'></p>
-                    <p className='number n3'></p>
+                    <p className='number n1'>1</p>
+                    <p className='number n2'>2</p>
+                    <p className='number n3'>3</p>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 18L15 12L9 6" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </div>
             </div>
