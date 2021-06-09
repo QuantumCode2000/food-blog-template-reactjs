@@ -1,0 +1,22 @@
+.Ad{
+    width: 47px;
+    height: 36px;
+    top: 1698px;
+    left: 1147px;
+    position: absolute;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100.9%;
+    color:rgba(255, 255, 255, 1);
+    
+
+}
+.img_Ad{
+    position: absolute;
+    width: 270px;
+    height: 266px;
+    left: 1035px;
+    top: 1583px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.jpg);
