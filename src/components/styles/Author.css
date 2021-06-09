@@ -3,6 +3,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        width: 270px;
+        height: 409px;
 }
 
 .Author{
@@ -14,7 +16,7 @@
     font-size: 18px;
     line-height: 100.9%;
       }
-      .iau{
+  .iau{
 
     width: 200px;
     height: 200px;
